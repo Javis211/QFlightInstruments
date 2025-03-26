@@ -50,7 +50,7 @@
 
 #include <QMainWindow>
 #include <QTime>
-
+#include <QElapsedTimer>
 namespace Ui { class MainWindow; }
 
 class MainWindow : public QMainWindow
@@ -72,7 +72,7 @@ private:
 
     float m_realTime{};
 
-    QTime m_time;
+    QElapsedTimer m_time;
 };
 
 #endif
